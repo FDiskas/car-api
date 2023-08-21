@@ -4,7 +4,7 @@
   "description": "test car api",
   "main": "index.js",
   "scripts": {
-    "start": "npx json-server ./db.json -p 80 --ro",
+    "start": "npx json-server ./db.json -p 3000 --ro --host 0.0.0.0",
     "dev": "npx json-server -w ./db.json -p 3001 --ro"
   },
   "keywords": [],
