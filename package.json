@@ -1,0 +1,16 @@
+{
+  "name": "car-api",
+  "version": "1.0.0",
+  "description": "test car api",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server ./db.json -p 80 --ro",
+    "dev": "json-server -w ./db.json -p 3001 --ro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
